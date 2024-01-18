@@ -1,18 +1,18 @@
 .callout {
-width: 500;
-margin: 12px;
-border: 1px solid lightgrey;
+width: 400;
+margin: 15px;
+border: 1px solid rgb(221, 121, 15);
 padding: 10px;
-background-color: antiquewhite;
-color: cornflowerblue;
+background-color: rgb(189, 180, 169);
+color: rgb(38, 40, 43);
 }
 
 .callout img {
 float: right;
-margin: 10px;
-border: 1px solid red;
+margin: 1px;
+border: 2px solid rgb(249, 242, 242);
 padding: 5px;
-background-color: beige;
+background-color: rgb(237, 116, 114);
 width: 100px;
 height: auto;
 }
@@ -23,7 +23,7 @@ margin: 0%;
 
 cite {
 display: block;
-border-top: 1px double black;
+border-top: 1px double rgb(206, 59, 59);
 padding-top: 5px;
 text-align: center;
 font-size: small;
