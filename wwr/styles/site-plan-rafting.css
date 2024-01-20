@@ -7,7 +7,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display&family=Open+Sans:ital@1&family=Roboto:wght@300&family=Source+Serif+4:opsz@8..60&display=swap');
 
 :root {
-    --primary-color: color rgb(207, 207, 221);
+    --primary-color: rgb(207, 207, 221);
     --secondary-color: #D5C9DF;
     --accent1-color: #828A95;
     --accent2-color: #CEEAF7;
