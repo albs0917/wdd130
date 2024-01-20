@@ -7,9 +7,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display&family=Open+Sans:ital@1&family=Roboto:wght@300&family=Source+Serif+4:opsz@8..60&display=swap');
 
 :root {
-    --primary-color: #00E8FC;
+    --primary-color: #3f045880;
     --secondary-color: #D5C9DF;
-    --accent1-color: #828A95;
+    --accent1-color: #d6e3ed;
     --accent2-color: #CEEAF7;
 
     --heading-font: Serif;
@@ -17,7 +17,7 @@
 
     --nav-backgroung-color: rgb(173, 173, 205);
     --nav-link-color: #ed0606;
-    --nav-hover-link-color: rgb(140, 226, 19);
+    --nav-hover-link-color: rgb(26, 19, 226);
     --nav-hover-backgroung-color: #CEEAF7;
 }
 
@@ -51,7 +51,7 @@ nav a {
     display: block;
     color: var(--nav-hover-link-color);
     text-decoration: none;
-    padding: 1rem;
+    padding: 2rem;
 }
 
 nav a:link, nav a:visited {
