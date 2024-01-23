@@ -48,7 +48,6 @@ aside {
     background-color: rgb(204, 219, 229);
     color: rgb(14, 15, 15);
     text-align: center;
-    position: relative;
 }
 aside img {
     width: 300px;
@@ -64,7 +63,7 @@ footer {
     text-align: center;
 }
 
-/* Class Selectors*/
+/* Class Selector*/
 
 .box {
     margin: 1rem;
