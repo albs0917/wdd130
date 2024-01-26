@@ -18,6 +18,10 @@
     position: relative;
 }
 
+.hero image {
+    position: absolute;
+}
+
 h1 {
     position: absolute;
     font-size: 50px;
