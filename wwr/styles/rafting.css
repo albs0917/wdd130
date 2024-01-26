@@ -12,14 +12,16 @@
     --nav-hover-link-color: rgb(26, 19, 226);
     --nav-hover-backgroung-color: #32bb17;
 
-}  
-
+} 
+  
 .hero {
     position: relative;
 }
 
-.hero image {
+.hero img {
     position: absolute;
+    top: 60px;
+    right: 0;
 }
 
 h1 {
@@ -32,6 +34,7 @@ h1 {
 
 .article {
     position: absolute;
+    background-color: #CEEAF7;
 
 }
 
