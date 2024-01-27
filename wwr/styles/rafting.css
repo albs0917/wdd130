@@ -1,40 +1,66 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display&family=Open+Sans&family=Roboto&family=Source+Serif+4:opsz@8..60&display=swap');
 
 :root {
-    --primary-color: #2f9e4980;
+    --primary-color: #3f045880;
     --secondary-color: #D5C9DF;
     --accent1-color: #d6e3ed;
     --accent2-color: #CEEAF7;
-    --heading-font: Serif;
-    --paragraph-font: Roboto color solid rgb(240, 225, 225);
-    --nav-backgroung-color: rgb(24, 24, 54);
+    --heading-font: 'Source Serif', serif;
+    --paragraph-font: 'Roboto, sans-serif';
+    --nav-backgroung-color: rgb(173, 173, 205);
     --nav-link-color: #ed0606;
     --nav-hover-link-color: rgb(26, 19, 226);
-    --nav-hover-backgroung-color: #32bb17;
+    --nav-hover-backgroung-color: #CEEAF7;
+}
 
-} 
-  
+body {
+    max-width: 1000px;
+    font-family: var(--paragraph-font);
+}
+
 .hero {
     position: relative;
 }
 
 .hero img {
-    position: absolute;
-    top: 60px;
-    right: 0;
+    width: 100%;
+    height: auto;
+}
+
+.hero article img {
+    float: right;
+    width: 200px;
+
 }
 
 h1 {
     position: absolute;
     font-size: 50px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: var(--heading-font);
     background-color: #61686d;
     color: #CEEAF7;
+    top: 50px;
+    width: 100%;
+    text-align: center;
 }
 
-.article {
+article {
     position: absolute;
     background-color: #CEEAF7;
-
+    top: 150px;
+    left: 50px;
+    right: 50px;
+    opacity: .7;
 }
 
+article p {
+    color:#000;
+}
+
+footer {
+    clear: both
+}
+
+.sociallinks a {
+    text-decoration:  none;
+}
