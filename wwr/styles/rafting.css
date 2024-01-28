@@ -46,15 +46,16 @@ h1 {
 
 article {
     position: absolute;
-    background-color: #CEEAF7;
-    top: 150px;
+    background-color: #5d81cf;
+    top: 320px;
     left: 50px;
     right: 50px;
     opacity: .7;
 }
 
 article p {
-    color:#000;
+    color:#f7f3f3;
+    text-align: center;
 }
 
 footer {
