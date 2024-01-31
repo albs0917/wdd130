@@ -45,9 +45,12 @@ p {
 }
 
 main {
+    display: grid;
+    align-items: center;
     padding: 20px;
     font-size: 25px;
-}
+}  
+
 aside {
     width: 20em;
     margin: 2rem;
