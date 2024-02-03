@@ -59,12 +59,13 @@ article {
     top: 320px;
     left: 50px;
     right: 50px;
-    opacity: .7;
+    opacity: .8;
 }
 
 article p {
     color:#f7f3f3;
     text-align: center;
+    padding: 55px;
 }
 
 section {
