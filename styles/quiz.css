@@ -30,7 +30,8 @@ form {
 input, select, textarea {
     padding: .7rem;
     font-size: 15px;
-    color: blue;
+    color: rgb(1, 1, 23);
+    font-weight: bold;
 }
 
 fieldset {
