@@ -170,21 +170,6 @@ figcaption {
 }
 
 
-nav a {
-    color: rgb(3, 9, 28);
-    padding: 25px;
-    text-decoration: none;
-    font-size: 20px;
-    font-family: sans-serif;
-}
-
-nav a:hover {
-    color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-backgroung-color);
-    padding: 1em;
-}
-
-
 .staff {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -197,10 +182,6 @@ h3 {
     text-align: center;
 }
 
-figure img {
-    max-width: 80px;
-
-}
 
 .staff h3 {
     grid-column: 1/7;
@@ -215,10 +196,6 @@ figure img {
     align-items: center;
 }
 
-figcaption {
-    background-color: #CEEAF7;
-    font-size: 10px;
-}
 
 .staff figure {
     text-align: center;
