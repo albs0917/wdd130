@@ -13,11 +13,6 @@
     --nav-hover-backgroung-color: #e78ad9a7;
 }
 
-* {
-    padding: 0;
-    box-sizing: border-box;
-}
-
 
 body {
     max-width: 1500px;
@@ -26,6 +21,7 @@ body {
 
 .hero {
     position: relative;
+    border: solid black;
     margin-bottom: 25px;
 }
 
