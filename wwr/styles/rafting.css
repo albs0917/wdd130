@@ -15,8 +15,12 @@
 
 
 body {
-    max-width: 1500px;
     font-family: var(--paragraph-font);
+}
+
+header main footer .map{
+    max-width: 0 auto;
+    margin: 0 auto;
 }
 
 
@@ -48,10 +52,15 @@ h1 {
     text-align: center;
 }
 
+.message {
+    margin-bottom: 45px;
+}
+
 h2 {
-    text-align: center;
+    text-align: left;
     font-size: 40px;
 }
+
 
 article {
     position: absolute;
@@ -242,6 +251,11 @@ label {
     text-align: left;
     padding-right: 1rem;
     border: 25px;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 19px;
 }
 
 input [type="checkbox"] {
