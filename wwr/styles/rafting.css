@@ -10,7 +10,7 @@
     --nav-backgroung-color: rgb(173, 173, 205);
     --nav-link-color: #ed0606;
     --nav-hover-link-color: rgb(26, 19, 226);
-    --nav-hover-backgroung-color: #e78ad9a7;
+    --nav-hover-backgroung-color: #32ab20a7;
 }
 
 
@@ -110,7 +110,7 @@ nav a {
     color: rgb(3, 9, 28);
     padding: 25px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 25px;
     font-family: sans-serif;
 }
 
@@ -296,13 +296,17 @@ footer {
     background-color: #a3bba3;
 }
 
+footer p {
+    font-size: 35px;
+}
+
 .sociallinks a {
     text-decoration: none;
     max-width: 30px;
 }
 
 nav .sociallinks {
-    width: 25px;
+    width: 15px;
     height: auto;
     
 }
