@@ -43,9 +43,9 @@ header main footer {
 
 h1 {
     position: absolute;
-    font-size: 50px;
+    font-size: 100px;
     font-family: var(--heading-font);
-    background-color: #50565b;
+    
     color: #CEEAF7;
     top: 50px;
     width: 100%;
@@ -293,7 +293,7 @@ footer {
     justify-items: center;
     align-items: center;
     border: solid black;
-    background-color: #cbdbcb;
+    background-color: #a3bba3;
 }
 
 .sociallinks a {
